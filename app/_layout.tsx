@@ -5,21 +5,21 @@ export default function RootLayout() {
   const [loading, setLoading] = useState();
 
   return (
-    <View style={styles.container}>
+    <View style={styles.fatherContainer}>
       <View></View>
-      <Text>Oi tudo bem?</Text>
+      <Text style={styles.input}>Oi tudo bem?</Text>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
+  fatherContainer: {
     flex: 1,
     justifyContent: "center",
     backgroundColor: "#ecf0f1",
     padding: 8,
   },
-  paragraph: {
+  input: {
     margin: 24,
     fontSize: 18,
     fontWeight: "bold",
