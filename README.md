@@ -1,50 +1,79 @@
-# Welcome to your Expo app 👋
+# 🧮 Calculadora Mobile - React Native
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## 📌 Visão Geral
 
-## Get started
+Aplicativo de calculadora desenvolvido em React Native, projetado para oferecer uma experiência de uso simples, intuitiva e responsiva. O layout foi pensado para facilitar a visualização das operações e proporcionar agilidade nos cálculos do dia a dia.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## ✅ Etapas do Projeto
 
-2. Start the app
+- [x] Levantamento de requisitos
+- [x] Criação do layout no Figma
+- [ ] Desenvolvimento da interface
+- [ ] Implementação da lógica de cálculo
+- [ ] Testes em dispositivos móveis
+- [ ] Publicação do código e documentação final
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## ⚙️ Especificações Técnicas
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### Funcionalidades esperadas
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- Entrada de números inteiros de **0 a 9**
+- Uso de **ponto ou vírgula** para separação decimal
+- Operações matemáticas básicas:
+  - Adição
+  - Subtração
+  - Multiplicação
+  - Divisão
+- Cálculo de **porcentagem**
+- Alternância de sinal (**positivo/negativo**)
+- Exibição do resultado ao pressionar o botão de **igual**
+- Botão para **limpar tudo** (AC)
+- Botão para **apagar o último dígito** (backspace)
+- Visor com duas linhas: expressão atual e resultado em destaque
+- Atualização em tempo real do visor conforme o usuário digita
 
-## Get a fresh project
+### Critérios técnicos
 
-When you're ready, run:
+- Desenvolvido com **React Native**
+- Compatível com **Android e iOS**
+- Interface adaptável a diferentes tamanhos de tela
+- Resposta instantânea ao toque nos botões
+- Formatação de números no padrão brasileiro (**vírgula como separador decimal**)
 
-```bash
-npm run reset-project
-```
+---
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 🎨 Design e Prototipagem
 
-## Learn more
+### Conceito visual
 
-To learn more about developing your project with Expo, look at the following resources:
+O design foi elaborado no Figma com foco em usabilidade e clareza. A interface é dividida em duas áreas principais:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+- **Área superior**: exibe a operação em andamento e o resultado com destaque visual
+- **Área inferior**: teclado numérico e funcional em formato de grade
 
-## Join the community
+Elementos de destaque:
 
-Join our community of developers creating universal apps.
+- Botão "=" com cor diferenciada para indicar ação principal
+- Operadores com estilo distinto dos números
+- Espaçamento equilibrado e contraste adequado para leitura
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### Acesso ao protótipo
+
+🔗 [Clique aqui para visualizar o projeto no Figma](https://www.figma.com/design/MQ6BelA0DwzDwr65Z8d89C/Calculadora-Henrique?node-id=1-2&t=nEkbpdlV4IDTKycR-1)
+
+### Preview
+
+![Protótipo da Calculadora](./assets/images/prototipo_iphone16.png)
+
+---
+
+## 📄 Próximos passos
+
+- Desenvolvimento dos componentes em React Native
+- Implementação da lógica de cálculos
+- Validação em dispositivos físicos e emuladores
+- Finalização da documentação técnica e de negócio
