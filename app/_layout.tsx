@@ -1,10 +1,15 @@
+import Button from "@/components/button";
 import { useState } from "react";
 import { StyleSheet, View } from "react-native";
 
 export default function RootLayout() {
   const [loading, setLoading] = useState();
 
-  return <View></View>;
+  return (
+    <View>
+      <Button variant="operations" title="+" />
+    </View>
+  );
 }
 
 const styles = StyleSheet.create({
