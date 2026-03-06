@@ -6,8 +6,12 @@ export default function RootLayout() {
   const [loading, setLoading] = useState();
 
   return (
-    <View>
+    <View style={styles.fatherContainer}>
+      <Button variant="operations" title="" />
+      <Button variant="operations" title="x" />
+      <Button variant="operations" title="-" />
       <Button variant="operations" title="+" />
+      <Button variant="operations" title="=" />
     </View>
   );
 }
